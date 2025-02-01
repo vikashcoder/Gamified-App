@@ -1,0 +1,30 @@
+.resultsContainer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.resultsTitle {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.scoreText {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.scoreValue {
+    font-weight: bold;
+    color: #29b6f6;
+}
+
+.totalValue {
+    font-weight: bold;
+    color: #555;
+}

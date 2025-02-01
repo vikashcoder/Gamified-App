@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Genetics and Evolution Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web-based quiz application focusing on Genetics and Evolution topics. It fetches quiz data from a provided API and presents it in an interactive, gamified user interface.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This application allows users to:
 
-### `npm start`
+-   Start a quiz with multiple-choice questions.
+-   Answer questions and navigate through the quiz.
+-   See a summary of their results, including the total score and time spent.
+-   Use a timer and progress bar to add gamification.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   **Data Fetching:** Fetches quiz data from the external API: `https://api.jsonserve.com/Uw5CrX`.
+-   **Question Display:** Displays questions with multiple-choice options.
+-   **Answer Selection:** Allows users to select an answer for each question.
+-   **Scoring:** Automatically calculates the total score at the end of the quiz based on correct answers and negative marking.
+-   **Results Summary:** Displays a clear results summary after quiz completion, showing the total score and points available.
+-   **Gamification:**
+    -   **Timer:** A timer is added to add pressure to the quiz.
+    -   **Progress Bar:** A progress bar shows the user their progress through the quiz.
+-   **Responsive Design:** The user interface adapts to various screen sizes.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **React:** For building the user interface.
+-   **Axios:** For making HTTP requests to the API.
+-   **CSS Modules:** For styling components.
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Clone the Repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone [Your-GitHub-Repository-URL]
+    cd [Your-Project-Directory]
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **Install Dependencies:**
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.  **Start the Application:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    This will start the application in your default browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Optional:**  For a better developer experience you can use VSCode plugins such as ESLint and Prettier to improve code consistency and readability.
 
-## Learn More
+## Project Structure
+Use code with caution.
+Markdown
+quiz-app/
+├── node_modules/
+├── public/
+│ └── ...
+├── src/
+│ ├── components/
+│ │ ├── Question.js
+│ │ ├── Question.module.css
+│ │ ├── Quiz.js
+│ │ ├── Quiz.module.css
+│ │ ├── Results.js
+│ │ ├── Results.module.css
+│ │ ├── Progressbar.js
+│ │ ├── Progressbar.module.css
+│ │ ├── Timer.js
+│ │ ├── Timer.module.css
+│ ├── services/
+│ │ └── quizService.js
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│ └── ...
+├── package.json
+├── package-lock.json
+└── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   Main quiz screen: Shows a quiz question with multiple choice options.
+    ![Quiz Screen](https://via.placeholder.com/400x300?text=Quiz+Screenshot)
+-   Results screen: Show quiz result along with score.
+    ![Results Screen](https://via.placeholder.com/400x300?text=Results+Screenshot)
 
-### Code Splitting
+## Video Walkthrough
+[Video Walkthrough](https://via.placeholder.com/1920x1080?text=Video+Walkthrough+Link)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Overview
 
-### Analyzing the Bundle Size
+The application is created to fulfill the requirements for a gamified quiz application and it uses React framework along with CSS modules for styling. It is easy to use and has core features such as:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*   **Dynamic Question Fetching:** Retrieves quiz questions dynamically via an API endpoint.
+*   **User Interaction:** Provides interactive multiple-choice selection, and simple navigation between questions.
+*   **Scoring Algorithm:** Calculates quiz scores based on predefined points and negative marking.
+*   **Gamification:** Features a timer and progress bar to enhance user engagement.
+*   **User Friendly Interface:** Simple layout with clear visual cues.
+*   **Responsive Interface:** Works well on different screen sizes.
 
-### Making a Progressive Web App
+## Issues
+* Currently the negative marking in the application will display negative values if the user selects an incorrect answer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Future Enhancements
+* Display detailed quiz answers and correct options after quiz is finished.
+* Feedback after every answer submission.
+* Improve UI and UX to provide a better experience.
 
-### Advanced Configuration
+## Credits
+* All images and content are property of testline.
+* This application is made by [Your Name/GitHub Username].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+*   [You can include a license here or remove this section]
