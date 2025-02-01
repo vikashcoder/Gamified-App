@@ -85,10 +85,13 @@ quiz-app/
 
 ## Screenshots
 
+<<<<<<< HEAD
 -   Main quiz screen: Shows a quiz question with multiple choice options.
     ![Quiz Screen](images/quiz-screenshot.png)
 -   Results screen: Show quiz result along with score.
     ![Results Screen](images/results-screenshot.png)
+=======
+>>>>>>> 0ccf52d819d2b78d8dae11b1bbe83bf6e5210697
 
 ## Video Walkthrough
 [Video Walkthrough](https://via.placeholder.com/1920x1080?text=Video+Walkthrough+Link)
