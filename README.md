@@ -85,10 +85,11 @@ quiz-app/
 
 ## Screenshots
 
--    -   Main quiz screen: Shows a quiz question with multiple choice options.
-     ![Quiz Screen](https://i.ibb.co/XfJMCTvy/Screenshot-2025-02-01-143650.png)
--    -   Results screen: Show quiz result along with score.
-      ![Results Screen](https://i.ibb.co/GQj175NP/Screenshot-2025-02-01-143244.png)
+
+  -   Main quiz screen: Shows a quiz question with multiple choice options.
+       <img src="https://i.ibb.co/XfJMCTvy/Screenshot-2025-02-01-143650.png" alt="Quiz Screen" width="400"  />
+  -   Results screen: Show quiz result along with score.
+        <img src="https://i.ibb.co/GQj175NP/Screenshot-2025-02-01-143244.png" alt="Results Screen" width="400"  />
 ## Video Walkthrough
 [Video Walkthrough](https://via.placeholder.com/1920x1080?text=Video+Walkthrough+Link)
 
