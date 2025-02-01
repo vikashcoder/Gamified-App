@@ -54,34 +54,8 @@ This application allows users to:
 
 4. **Optional:**  For a better developer experience you can use VSCode plugins such as ESLint and Prettier to improve code consistency and readability.
 
-## Project Structure
-Use code with caution.
-Markdown
-quiz-app/
-├── node_modules/
-├── public/
-│ └── ...
-├── src/
-│ ├── components/
-│ │ ├── Question.js
-│ │ ├── Question.module.css
-│ │ ├── Quiz.js
-│ │ ├── Quiz.module.css
-│ │ ├── Results.js
-│ │ ├── Results.module.css
-│ │ ├── Progressbar.js
-│ │ ├── Progressbar.module.css
-│ │ ├── Timer.js
-│ │ ├── Timer.module.css
-│ ├── services/
-│ │ └── quizService.js
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-│ └── ...
-├── package.json
-├── package-lock.json
-└── README.md
+
+
 
 ## Screenshots
 
@@ -90,8 +64,8 @@ quiz-app/
     ![Quiz Screen](images/quiz-screenshot.png)
 -   Results screen: Show quiz result along with score.
     ![Results Screen](images/results-screenshot.png)
-=======
->>>>>>> 0ccf52d819d2b78d8dae11b1bbe83bf6e5210697
+
+
 
 ## Video Walkthrough
 [Video Walkthrough](https://via.placeholder.com/1920x1080?text=Video+Walkthrough+Link)
@@ -117,7 +91,5 @@ The application is created to fulfill the requirements for a gamified quiz appli
 
 ## Credits
 * All images and content are property of testline.
-* This application is made by [Your Name/GitHub Username].
+* This application is made by Vikash Raj.
 
-## License
-*   [You can include a license here or remove this section]
