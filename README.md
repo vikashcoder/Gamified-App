@@ -86,7 +86,7 @@ quiz-app/
 ## Screenshots
 
 -   Main quiz screen: Shows a quiz question with multiple choice options.
-    ![Quiz Screen]((https://ibb.co/XfJMCTvy))
+    ![Quiz Screen]([(https://ibb.co/XfJMCTvy)](https://i.ibb.co/GQj175NP/Screenshot-2025-02-01-143244.png))
 -   Results screen: Show quiz result along with score.
     ![Results Screen](https://ibb.co/XfJMCTvy)
 
