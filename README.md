@@ -68,7 +68,7 @@ This application allows users to:
 
 
 ## Video Walkthrough
-[Video Walkthrough](https://via.placeholder.com/1920x1080?text=Video+Walkthrough+Link)
+[Video Walkthrough](images/video.mp4)
 
 ## Project Overview
 
